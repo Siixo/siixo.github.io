@@ -24,27 +24,30 @@ import 'aos/dist/aos.css';
         </div>
 </section>
 
+
+
 <!-- Mes spécialités -->
-<section class="specialite w-full min-h-screen bg-blanc">
+<section class="specialite w-full py-20 bg-blanc">
     <div class="container mx-auto px-4 py-20">
             <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Mes spécialités</h2>
             <div class="services-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
-                <div class="service-card bg-white text-center p-6 rounded-xl border-1 border-black transition-transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-transform hover:scale-105 hover:shadow-2xl"
+                data-aos="fade-up" data-aos-delay="100">
                     <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
                     <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
                     <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
                 </div>
-                <div class="service-card bg-white text-center p-6 rounded-xl border-1 border-black transition-transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
                     <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
                     <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
                 </div>
-                <div class="service-card bg-white text-center p-6 rounded-xl border-1 border-black transition-transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
                     <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
                     <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
                 </div>
-                <div class="service-card bg-white text-center p-6 rounded-xl border-1 border-black transition-transform hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
                     <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
                     <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
@@ -55,24 +58,30 @@ import 'aos/dist/aos.css';
 </section> 
 
 <!-- A propos -->
-<section class="aPropos w-full min-h-screen bg-white">
-    <div class="container mx-auto px-4 py-20">
-        <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">A propos</h2>
-        <div class="flex justify-center items-center gap-2">
-            <img data-aos="fade-up" data-aos-delay="200" class="rounded-xl" src="/portraitLeila.png" alt="Portrait de Leila Foinant"/>
-            <div data-aos="fade-up" data-aos-delay="200" class="hidden lg:block w-px bg-black h-64 mx-auto"></div>
-            <div data-aos="fade-up" data-aos-delay="200" class="flex flex-col font-open gap-4 max-w-3xl">
-                <h1 class="text-6xl">Leila Foinant</h1>
-                <h2 class="text-4xl">Kinésithérapeute</h2>
-                <h3 class="text-2xl word-break">Diplômée en 2021 de l’Université Internationale de Catalogne</h3>
-                <p>Patientèle variée, prise en charge avec orientation en traumatologie, rhumatologie, sport.
-                Possibilité d’effectuer des soins à domiciles, prise de rdv par téléphone.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil quidem assumenda delectus molestiae sint, ut sapiente eius architecto alias debitis itaque, dolore, qui ullam placeat unde labore ab aliquam quisquam.
-                </p>
-            </div>
-            
-        </div> 
+<section class="aPropos w-full py-20 bg-white">
+    <div class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12">
+    <!-- Image -->
+    <img data-aos="fade-up" data-aos-delay="200" 
+         class="rounded-xl w-80 h-auto object-cover shadow-pink shadow-2xl" 
+         src="/portraitLeila.png" alt="Portrait de Leila Foinant"/>
+    
+    <!-- Trait vertical (disparaît sur mobile) -->
+    <div data-aos="fade-up" data-aos-delay="200" 
+         class="hidden lg:block w-px bg-black h-64"></div>
+    
+    <!-- Texte -->
+    <div data-aos="fade-up" data-aos-delay="200" 
+         class="flex flex-col font-open gap-4 max-w-3xl text-center lg:text-left">
+        <h1 class="text-4xl lg:text-6xl text-pink">Leila Foinant</h1>
+        <h2 class="text-2xl lg:text-4xl text-gray-700">Kinésithérapeute</h2>
+        <h3 class="text-lg lg:text-2xl text-gray-600">
+            Diplômée en 2021 de l'Université Internationale de Catalogne
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+            Patientèle variée, prise en charge...
+        </p>
     </div>
+</div>
 </section>
 
 <!-- Mon parcours professionnel -->
@@ -82,7 +91,7 @@ import 'aos/dist/aos.css';
             Mon parcours professionnel
         </h2>
         
-        <div class="timeline relative max-w-4xl mx-auto">
+        <div class="timeline relative max-w-4xl mx-auto overflow-hidden">
             <!-- Ligne verticale centrale -->
             <div class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-pink h-full"></div>
             
@@ -175,7 +184,7 @@ import 'aos/dist/aos.css';
 </section>
 
 <!-- Le cabinet -->    
-        <section class="cabinet-section w-full min-h-screen py-20 bg-white">
+        <section class="cabinet-section w-full py-20 bg-white">
             <div class="container mx-auto px-4 py-20">
             <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Le cabinet</h2>
             <div class="flex justify-center gap-6 mb-12">
