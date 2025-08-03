@@ -11,12 +11,12 @@ import 'aos/dist/aos.css';
                 Spécialisée dans la rééducation fonctionnelle et la thérapie manuelle.
             </p>
             <div class="hero-buttons " data-aos="fade-up" data-aos-delay="400" >
-                <a class="mr-6 inline-block rounded-sm bg-pink px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:ring-3 focus:outline-hidden"
+                <a class="md:mr-6  mb-2 inline-block rounded-sm bg-pink px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:ring-3 focus:outline-hidden"
                     href="#">
                     Prendre Rendez-vous
                 </a>
 
-                <a class="ml-6 inline-block rounded-sm border border-current px-8 py-3 text-sm font-medium text-pink transition hover:scale-110 hover:shadow-xl focus:ring-3 focus:outline-hidden"
+                <a class="md:ml-6 inline-block rounded-sm border border-current px-8 py-3 text-sm font-medium text-pink transition hover:scale-110 hover:shadow-xl focus:ring-3 focus:outline-hidden"
                     href="#">
                     Découvrir mes services
                 </a>
@@ -85,7 +85,7 @@ import 'aos/dist/aos.css';
 </section>
 
 <!-- Mon parcours professionnel -->
-<section class="timeline-section py-20 bg-blanc">
+<section class="timeline-section bg-blanc">
     <div class="container mx-auto px-4">
         <h2 class="text-4xl font-semibold text-center text-pink mb-16" data-aos="fade-up">
             Mon parcours professionnel
@@ -187,7 +187,7 @@ import 'aos/dist/aos.css';
         <section class="cabinet-section w-full py-20 bg-white">
             <div class="container mx-auto px-4 py-20">
             <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Le cabinet</h2>
-            <div class="flex justify-center gap-6 mb-12">
+            <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
                 <div class="flex flex-col font-open text-white bg-pink p-8 rounded-2xl gap-12">
                     <div class="flex">
                         <svg class="w-15 h-auto mr-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -224,85 +224,83 @@ import 'aos/dist/aos.css';
                 <img data-aos="fade-up" data-aos-delay="200" class="w-100 h-auto" src="/maps.png"/>
             </div>
         
-            <div class="carousel-3d-container relative max-w-4xl mx-auto h-96" data-aos="fade-up" data-aos-delay="200">
-                <!-- Carousel wrapper -->
-                <div class="carousel-wrapper relative w-full h-full perspective-1000">
-                    
-                    <!-- Slide 1 (active) -->
-                    <div class="carousel-slide active absolute w-full h-full transition-all duration-700 ease-out transform translate-x-0 scale-100 z-30">
-                        <div class="slide-content bg-white rounded-xl shadow-xl overflow-hidden h-full">
-                            <img src="/gallerie1.jpg" 
-                                alt="Salle d'attente" 
-                                class="w-full h-3/4 object-cover">
-                            <div class="p-4 text-center">
-                                <h3 class="text-xl font-semibold text-pink">Salle d'attente</h3>
-                                <p class="text-gray-600">Espace accueillant et confortable</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 2 -->
-                    <div class="carousel-slide absolute w-full h-full transition-all duration-700 ease-out transform translate-x-8 scale-95 z-20 opacity-70">
-                        <div class="slide-content bg-white rounded-xl shadow-xl overflow-hidden h-full">
-                            <img src="/gallerie2.jpg" 
-                                alt="Cabinet de soins" 
-                                class="w-full h-3/4 object-cover">
-                            <div class="p-4 text-center">
-                                <h3 class="text-xl font-semibold text-pink">Cabinet de soins</h3>
-                                <p class="text-gray-600">Équipement moderne et professionnel</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 3 -->
-                    <div class="carousel-slide absolute w-full h-full transition-all duration-700 ease-out transform translate-x-16 scale-90 z-10 opacity-40">
-                        <div class="slide-content bg-white rounded-xl shadow-xl overflow-hidden h-full">
-                            <img src="/gallerie3.jpg" 
-                                alt="Salle de rééducation" 
-                                class="w-full h-3/4 object-cover">
-                            <div class="p-4 text-center">
-                                <h3 class="text-xl font-semibold text-pink">Salle de rééducation</h3>
-                                <p class="text-gray-600">Espace dédié aux exercices</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slide 4 (cachée) -->
-                    <div class="carousel-slide absolute w-full h-full transition-all duration-700 ease-out transform translate-x-24 scale-85 z-0 opacity-0">
-                        <div class="slide-content bg-white rounded-xl shadow-xl overflow-hidden h-full">
-                            <img src="/gallerie4.jpg" 
-                                alt="Équipements" 
-                                class="w-full h-3/4 object-cover">
-                            <div class="p-4 text-center">
-                                <h3 class="text-xl font-semibold text-pink">Équipements</h3>
-                                <p class="text-gray-600">Matériel de kinésithérapie moderne</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Navigation buttons -->
-                <button class="carousel-prev absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-blue-800 hover:bg-blue-50 z-40">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                    </svg>
-                </button>
+            <section class="w-full py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl text-center mb-16 text-pink font-bold">Découvrez Notre Cabinet</h2>
+        
+        <div class="coverflow-container relative max-w-6xl mx-auto h-96 overflow-hidden">
+            <!-- Slides Container -->
+            <div class="coverflow-wrapper relative w-full h-full flex items-center justify-center perspective-1000">
                 
-                <button class="carousel-next absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-blue-800 hover:bg-blue-50 z-40">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </button>
-
-                <!-- Dots indicator -->
-                <div class="carousel-dots flex justify-center space-x-2 mt-8">
-                    <button class="dot active w-3 h-3 bg-pink rounded-full transition-all duration-300"></button>
-                    <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300"></button>
-                    <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300"></button>
-                    <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300"></button>
+                <!-- Slide 1 -->
+                <div class="coverflow-slide absolute transition-all duration-500 ease-out cursor-pointer" data-index="0">
+                    <div class="slide-content bg-white rounded-xl shadow-2xl overflow-hidden w-64 h-80">
+                        <img src="/gallerie1.jpg" alt="Salle d'attente" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-pink mb-2">Salle d'attente</h3>
+                            <p class="text-gray-600 text-sm">Espace confortable et accueillant pour nos patients</p>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Slide 2 -->
+                <div class="coverflow-slide absolute transition-all duration-500 ease-out cursor-pointer" data-index="1">
+                    <div class="slide-content bg-white rounded-xl shadow-2xl overflow-hidden w-64 h-80">
+                        <img src="/gallerie2.jpg" alt="Cabinet de soins" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-pink mb-2">Cabinet de soins</h3>
+                            <p class="text-gray-600 text-sm">Équipement moderne pour vos traitements personnalisés</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="coverflow-slide absolute transition-all duration-500 ease-out cursor-pointer" data-index="2">
+                    <div class="slide-content bg-white rounded-xl shadow-2xl overflow-hidden w-64 h-80">
+                        <img src="/gallerie3.jpg" alt="Salle de rééducation" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-pink mb-2">Salle de rééducation</h3>
+                            <p class="text-gray-600 text-sm">Salle dédiée aux exercices de rééducation fonctionnelle</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="coverflow-slide absolute transition-all duration-500 ease-out cursor-pointer" data-index="3">
+                    <div class="slide-content bg-white rounded-xl shadow-2xl overflow-hidden w-64 h-80">
+                        <img src="/gallerie4.jpg" alt="Équipements" class="w-full h-48 object-cover">
+                        <div class="p-4 text-center">
+                            <h3 class="text-lg font-semibold text-pink mb-2">Équipements</h3>
+                            <p class="text-gray-600 text-sm">Technologie de pointe pour votre rétablissement</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!-- Navigation Buttons -->
+            <button class="coverflow-prev absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white z-10">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+            
+            <button class="coverflow-next absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white z-10">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </button>
+
+            <!-- Dots Indicator -->
+            <div class="coverflow-dots flex justify-center space-x-3 mt-8">
+                <button class="dot active w-3 h-3 bg-pink rounded-full transition-all duration-300" data-index="0"></button>
+                <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300" data-index="1"></button>
+                <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300" data-index="2"></button>
+                <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300" data-index="3"></button>
+                <button class="dot w-3 h-3 bg-gray-300 hover:bg-gray-400 rounded-full transition-all duration-300" data-index="4"></button>
             </div>
         </div>
+    </div>
+</section>
 </section>
 
 <!-- CSS personnalisé à ajouter -->
@@ -311,105 +309,282 @@ import 'aos/dist/aos.css';
     perspective: 1000px;
 }
 
-.carousel-3d-container:hover .carousel-slide:not(.active) {
-    transform: translateX(var(--translate-x)) scale(var(--scale)) rotateY(-5deg);
+.coverflow-slide {
+    transform-style: preserve-3d;
 }
 
-.carousel-slide:nth-child(2) {
-    --translate-x: 2rem;
-    --scale: 0.95;
+/* Positions et rotations pour l'effet coverflow */
+.coverflow-slide[data-position="-2"] {
+    transform: translateX(-280px) rotateY(45deg) scale(0.8);
+    z-index: 1;
+    opacity: 0.6;
 }
 
-.carousel-slide:nth-child(3) {
-    --translate-x: 4rem;
-    --scale: 0.9;
+.coverflow-slide[data-position="-1"] {
+    transform: translateX(-140px) rotateY(25deg) scale(0.9);
+    z-index: 2;
+    opacity: 0.8;
 }
 
-.carousel-slide:nth-child(4) {
-    --translate-x: 6rem;
-    --scale: 0.85;
+.coverflow-slide[data-position="0"] {
+    transform: translateX(0) rotateY(0deg) scale(1);
+    z-index: 3;
+    opacity: 1;
+}
+
+.coverflow-slide[data-position="1"] {
+    transform: translateX(140px) rotateY(-25deg) scale(0.9);
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.coverflow-slide[data-position="2"] {
+    transform: translateX(280px) rotateY(-45deg) scale(0.8);
+    z-index: 1;
+    opacity: 0.6;
+}
+
+/* Masquer les slides trop éloignées */
+.coverflow-slide[data-position="3"],
+.coverflow-slide[data-position="-3"],
+.coverflow-slide[data-position="4"],
+.coverflow-slide[data-position="-4"] {
+    opacity: 0;
+    transform: translateX(400px) rotateY(-60deg) scale(0.7);
+    z-index: 0;
+}
+
+/* Effet hover sur les slides */
+.coverflow-slide:hover .slide-content {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(196, 62, 69, 0.3);
+}
+
+.coverflow-slide .slide-content {
+    transition: all 0.3s ease;
+}
+
+/* Animation pour mobile */
+@media (max-width: 768px) {
+    .coverflow-slide[data-position="-2"],
+    .coverflow-slide[data-position="2"] {
+        opacity: 0;
+    }
+    
+    .coverflow-slide[data-position="-1"] {
+        transform: translateX(-100px) rotateY(15deg) scale(0.85);
+    }
+    
+    .coverflow-slide[data-position="1"] {
+        transform: translateX(100px) rotateY(-15deg) scale(0.85);
+    }
 }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const carousel = document.querySelector('.carousel-3d-container');
-    const slides = carousel.querySelectorAll('.carousel-slide');
-    const dots = carousel.querySelectorAll('.dot');
-    const prevBtn = carousel.querySelector('.carousel-prev');
-    const nextBtn = carousel.querySelector('.carousel-next');
+    const container = document.querySelector('.coverflow-container');
+    const wrapper = container.querySelector('.coverflow-wrapper');
+    const originalSlides = container.querySelectorAll('.coverflow-slide');
+    const dots = container.querySelectorAll('.dot');
+    const prevBtn = container.querySelector('.coverflow-prev');
+    const nextBtn = container.querySelector('.coverflow-next');
     
-    let currentSlide = 0;
-    const totalSlides = slides.length;
+    const totalOriginalSlides = originalSlides.length;
+    let currentIndex = 0;
+    let allSlides = [];
+    let isTransitioning = false;
 
-    function updateCarousel() {
-        slides.forEach((slide, index) => {
-            slide.classList.remove('active');
+    // Créer la boucle infinie en dupliquant les slides
+    function createInfiniteLoop() {
+        // Cloner les 2 dernières slides au début
+        for (let i = totalOriginalSlides - 2; i < totalOriginalSlides; i++) {
+            const clone = originalSlides[i].cloneNode(true);
+            clone.classList.add('clone');
+            wrapper.insertBefore(clone, originalSlides[0]);
+        }
+
+        // Cloner les 2 premières slides à la fin
+        for (let i = 0; i < 2; i++) {
+            const clone = originalSlides[i].cloneNode(true);
+            clone.classList.add('clone');
+            wrapper.appendChild(clone);
+        }
+
+        // Mettre à jour la liste de toutes les slides
+        allSlides = wrapper.querySelectorAll('.coverflow-slide');
+        
+        // Commencer à l'index 2 (première vraie slide après les clones)
+        currentIndex = 2;
+    }
+
+    function updateCoverflow() {
+        allSlides.forEach((slide, index) => {
+            const position = index - currentIndex;
+            slide.setAttribute('data-position', position);
             
-            const offset = index - currentSlide;
-            
-            if (offset === 0) {
-                // Active slide
-                slide.classList.add('active');
-                slide.style.transform = 'translateX(0) scale(1)';
-                slide.style.zIndex = '30';
-                slide.style.opacity = '1';
-            } else if (offset === 1) {
-                // Next slide
-                slide.style.transform = 'translateX(2rem) scale(0.95)';
-                slide.style.zIndex = '20';
-                slide.style.opacity = '0.7';
-            } else if (offset === 2) {
-                // Second next slide
-                slide.style.transform = 'translateX(4rem) scale(0.9)';
-                slide.style.zIndex = '10';
-                slide.style.opacity = '0.4';
-            } else {
-                // Hidden slides
-                slide.style.transform = 'translateX(6rem) scale(0.85)';
-                slide.style.zIndex = '0';
-                slide.style.opacity = '0';
+            // Limiter la position pour l'affichage
+            if (position < -2) {
+                slide.setAttribute('data-position', '-3');
+            } else if (position > 2) {
+                slide.setAttribute('data-position', '3');
             }
         });
 
-        // Update dots
+        // Update dots (basé sur les slides originales)
+        const realIndex = getRealIndex();
         dots.forEach((dot, index) => {
-            dot.classList.toggle('active', index === currentSlide);
-            dot.classList.toggle('bg-blue-800', index === currentSlide);
-            dot.classList.toggle('bg-gray-300', index !== currentSlide);
+            dot.classList.toggle('active', index === realIndex);
+            if (index === realIndex) {
+                dot.classList.remove('bg-gray-300');
+                dot.classList.add('bg-pink');
+            } else {
+                dot.classList.remove('bg-pink');
+                dot.classList.add('bg-gray-300');
+            }
         });
     }
 
+    function getRealIndex() {
+        // Convertir l'index actuel en index des slides originales
+        let realIndex = (currentIndex - 2) % totalOriginalSlides;
+        if (realIndex < 0) realIndex += totalOriginalSlides;
+        return realIndex;
+    }
+
+    function goToSlide(targetRealIndex) {
+        // Trouver le bon index dans toutes les slides
+        currentIndex = targetRealIndex + 2;
+        updateCoverflow();
+    }
+
     function nextSlide() {
-        currentSlide = (currentSlide + 1) % totalSlides;
-        updateCarousel();
+        if (isTransitioning) return;
+        
+        isTransitioning = true;
+        currentIndex++;
+        updateCoverflow();
+
+        // Si on est sur un clone à la fin, revenir au début
+        setTimeout(() => {
+            if (currentIndex >= allSlides.length - 2) {
+                // Désactiver les transitions temporairement
+                allSlides.forEach(slide => {
+                    slide.style.transition = 'none';
+                });
+                
+                currentIndex = 2; // Retour au début (première vraie slide)
+                updateCoverflow();
+                
+                // Réactiver les transitions
+                setTimeout(() => {
+                    allSlides.forEach(slide => {
+                        slide.style.transition = 'all 0.5s ease-out';
+                    });
+                    isTransitioning = false;
+                }, 50);
+            } else {
+                isTransitioning = false;
+            }
+        }, 500);
     }
 
     function prevSlide() {
-        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-        updateCarousel();
+        if (isTransitioning) return;
+        
+        isTransitioning = true;
+        currentIndex--;
+        updateCoverflow();
+
+        // Si on est sur un clone au début, aller à la fin
+        setTimeout(() => {
+            if (currentIndex < 2) {
+                // Désactiver les transitions temporairement
+                allSlides.forEach(slide => {
+                    slide.style.transition = 'none';
+                });
+                
+                currentIndex = allSlides.length - 3; // Aller à la fin (dernière vraie slide)
+                updateCoverflow();
+                
+                // Réactiver les transitions
+                setTimeout(() => {
+                    allSlides.forEach(slide => {
+                        slide.style.transition = 'all 0.5s ease-out';
+                    });
+                    isTransitioning = false;
+                }, 50);
+            } else {
+                isTransitioning = false;
+            }
+        }, 500);
     }
 
     // Event listeners
     nextBtn.addEventListener('click', nextSlide);
     prevBtn.addEventListener('click', prevSlide);
 
+    // Dots navigation
     dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => {
-            currentSlide = index;
-            updateCarousel();
-        });
+        dot.addEventListener('click', () => goToSlide(index));
     });
 
-    // Auto-play (optionnel)
-    setInterval(nextSlide, 5000);
+    // Click on slides (uniquement les vraies slides, pas les clones)
+    function setupSlideClicks() {
+        allSlides.forEach((slide, index) => {
+            if (!slide.classList.contains('clone')) {
+                slide.addEventListener('click', () => {
+                    if (index !== currentIndex && !isTransitioning) {
+                        currentIndex = index;
+                        updateCoverflow();
+                    }
+                });
+            }
+        });
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') prevSlide();
+        if (e.key === 'ArrowRight') nextSlide();
+    });
+
+    // Auto-play avec boucle infinie
+    let autoPlay = setInterval(nextSlide, 4000);
+
+    // Pause on hover
+    container.addEventListener('mouseenter', () => clearInterval(autoPlay));
+    container.addEventListener('mouseleave', () => {
+        autoPlay = setInterval(nextSlide, 4000);
+    });
+
+    // Touch/swipe support pour mobile
+    let startX = 0;
+    let endX = 0;
+
+    container.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+    });
+
+    container.addEventListener('touchend', (e) => {
+        endX = e.changedTouches[0].clientX;
+        const difference = startX - endX;
+        
+        if (Math.abs(difference) > 50) { // Minimum swipe distance
+            if (difference > 0) {
+                nextSlide();
+            } else {
+                prevSlide();
+            }
+        }
+    });
 
     // Initialize
-    updateCarousel();
+    createInfiniteLoop();
+    setupSlideClicks();
+    updateCoverflow();
 });
 </script>
-    </div>
-</section>
 
 
 
