@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@theme {  
+    --color-pink: #C43E45;
+    --color-blanc: #FEF9EF;
+    --color-jet: #323031;
+    --color-space: #2B2D42;
+    --color-raisin: #242331;
+    --color-stone: #647077;
+    --font-inter: "Inter", sans-serif;
+    --font-open: "Open Sans", sans-serif
+}
+
+.fade-right {
+    mask: linear-gradient(to right, black 95%, transparent 100%);
+    -webkit-mask: linear-gradient(to right, black 95%, transparent 100%);
+}
+.fade-bottom {
+    mask: linear-gradient(to bottom, #1E2939 50%, transparent 100%);
+    -webkit-mask: linear-gradient(to bottom, #1E2939 50%, transparent 100%);
+}
+.fade-left {
+    mask: linear-gradient(to left, black 90%, transparent 100%);
+    -webkit-mask: linear-gradient(to left, black 90%, transparent 100%);
+}
+.fade-top {
+    mask: linear-gradient(to top, black 90%, transparent 100%);
+    -webkit-mask: linear-gradient(to top, black 90%, transparent 100%);
+}
