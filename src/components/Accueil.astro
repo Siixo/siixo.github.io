@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 <!-- Hero -->
 <section class="hero w-full text-center min-h-screen flex items-center justify-center">
     <div class="container flex flex-col items-center space-y-8">
-        <h1 data-aos="fade-up" class="text-5xl text-pink font-bold font-open">VOTRE TRAITEMENT COMMENCE PAR LE MOUVEMENT</h1>
+        <h1 data-aos="fade-up" class="text-5xl text-pink font-bold font-inter">VOTRE TRAITEMENT COMMENCE PAR LE MOUVEMENT</h1>
         <p data-aos="fade-up" data-aos-delay="200" class="text-xl max-w-2xl text-pink">
                 Kinésithérapeute diplômée d'État avec 10 ans d'expérience. 
                 Spécialisée dans la rééducation fonctionnelle et la thérapie manuelle.
@@ -28,64 +28,171 @@ import 'aos/dist/aos.css';
 
 <!-- Mes spécialités -->
 <section class="specialite w-full py-20 bg-blanc">
-    <div class="container mx-auto px-4 py-20">
-            <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Mes spécialités</h2>
-            <div class="services-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
-                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-transform hover:scale-105 hover:shadow-2xl"
-                data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
-                    <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
-                    <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
+    <div class="container mx-auto px-4">
+        <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Mes spécialités</h2>
+        
+        <div class="services-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="service-card bg-white text-center p-6 rounded-xl border border-gray-200 transition-all duration-300 hover:scale-105 hover:shadow-lg min-h-[350px] flex flex-col justify-between"
+            data-aos="fade-up" data-aos-delay="100">
+                <div>
+                    <div class="service-icon w-16 h-16 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">🦴</div>
+                    <h3 class="text-xl font-semibold text-pink mb-2">Rééducation orthopédique</h3>
                 </div>
-                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
-                    <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
-                    <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
+                <p class="text-gray-600 leading-relaxed">Prise en charge des pathologies musculo-squelettiques, post-chirurgie et traumatologie.</p>
+            </div>
+            
+            <div class="service-card bg-white text-center p-6 rounded-xl border border-gray-200 transition-all duration-300 hover:scale-105 hover:shadow-lg min-h-[350px] flex flex-col justify-between"
+            data-aos="fade-up" data-aos-delay="200">
+                <div>
+                    <div class="service-icon w-16 h-16 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">🏃‍♂️</div>
+                    <h3 class="text-xl font-semibold text-pink mb-2">Rééducation sportive</h3>
                 </div>
-                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
-                    <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
-                    <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
+                <p class="text-gray-600 leading-relaxed">Accompagnement des sportifs pour un retour optimal à la pratique après blessure.</p>
+            </div>
+            
+            <div class="service-card bg-white text-center p-6 rounded-xl border border-gray-200 transition-all duration-300 hover:scale-105 hover:shadow-lg min-h-[350px] flex flex-col justify-between"
+            data-aos="fade-up" data-aos-delay="300">
+                <div>
+                    <div class="service-icon w-16 h-16 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">🧘‍♀️</div>
+                    <h3 class="text-xl font-semibold text-pink mb-2">Rééducation posturale</h3>
                 </div>
-                <div class="service-card bg-white text-center p-6 rounded-xl border border-black transition-all duration-500 hover:scale-105 hover:shadow-2xl" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-icon w-20 h-20 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-3xl">🦴</div>
-                    <h3 class="text-xl font-semibold text-pink mb-4">Rééducation orthopédique</h3>
-                    <p class="text-gray-600 leading-relaxed word-break">Prise en charge des pathologies musculo-squelettiques,<br/>post-chirurgie et traumatologie.</p>
+                <p class="text-gray-600 leading-relaxed">Correction des déséquilibres posturaux et prévention des douleurs chroniques.</p>
+            </div>
+            
+            <div class="service-card bg-white text-center p-6 rounded-xl border border-gray-200 transition-all duration-300 hover:scale-105 hover:shadow-lg min-h-[350px] flex flex-col justify-between"
+            data-aos="fade-up" data-aos-delay="400">
+                <div>
+                    <div class="service-icon w-16 h-16 bg-pink rounded-full mx-auto mb-6 flex items-center justify-center text-white text-2xl">👶</div>
+                    <h3 class="text-xl font-semibold text-pink mb-2">Pédiatrie</h3>
                 </div>
-                
+                <p class="text-gray-600 leading-relaxed">Soins adaptés aux enfants et adolescents pour un développement moteur optimal.</p>
             </div>
         </div>
-</section> 
+    </div>
+</section>
 
 <!-- A propos -->
-<section class="aPropos w-full py-20 bg-white">
-    <div class="flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12">
-    <!-- Image -->
-    <img data-aos="fade-up" data-aos-delay="200" 
-         class="rounded-xl w-80 h-auto object-cover shadow-pink shadow-2xl" 
-         src="/portraitLeila.png" alt="Portrait de Leila Foinant"/>
+<section class="aPropos w-full py-20 bg-white relative overflow-hidden">
+  <!-- Carousel container -->
+  <div id="carousel" class="flex w-[200vw] transition-transform duration-500 ease-in-out">
     
-    <!-- Trait vertical (disparaît sur mobile) -->
-    <div data-aos="fade-up" data-aos-delay="200" 
-         class="hidden lg:block w-px bg-black h-64"></div>
-    
-    <!-- Texte -->
-    <div data-aos="fade-up" data-aos-delay="200" 
-         class="flex flex-col font-open gap-4 max-w-3xl text-center lg:text-left">
+    <!-- Slide 1 -->
+    <div class="w-screen flex-shrink-0 flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-6">
+      <img class="rounded-xl w-80 h-auto object-cover shadow-pink shadow-2xl"
+           src="/portraitLeila.png" alt="Portrait de Leila Foinant" />
+      <div class="hidden lg:block w-px bg-black h-64"></div>
+      <div class="flex flex-col font-open gap-4 max-w-3xl text-center lg:text-left">
         <h1 class="text-4xl lg:text-6xl text-pink">Leila Foinant</h1>
         <h2 class="text-2xl lg:text-4xl text-gray-700">Kinésithérapeute</h2>
         <h3 class="text-lg lg:text-2xl text-gray-600">
-            Diplômée en 2021 de l'Université Internationale de Catalogne
+          Diplômée en 2021 de l'Université Internationale de Catalogne
         </h3>
         <p class="text-gray-600 leading-relaxed">
-            Patientèle variée, prise en charge...
+          Patientèle variée, prise en charge...
         </p>
+      </div>
     </div>
-</div>
+
+    <!-- Slide 2 -->
+    <div class="w-screen flex-shrink-0 flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 px-6">
+      <img class="rounded-xl w-80 h-auto object-cover shadow-green-500 shadow-2xl"
+           src="/Vinci.png" alt="Portrait de Jean Dupont" />
+      <div class="hidden lg:block w-px bg-black h-64"></div>
+      <div class="flex flex-col font-open gap-4 max-w-3xl text-center lg:text-left">
+        <h1 class="text-4xl lg:text-6xl text-green-500">Vinci</h1>
+        <h2 class="text-2xl lg:text-4xl text-gray-700">Support émotionnel</h2>
+        <h3 class="text-lg lg:text-2xl text-gray-600">
+          Diplômé en 2019 de l’Université de Bordeaux
+        </h3>
+        <p class="text-gray-600 leading-relaxed">
+          Spécialisé en douleurs chroniques, approche holistique...
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flèches navigation -->
+  <button id="prevBtn" class="absolute left-4 top-1/2 -translate-y-1/2 bg-black text-white p-3 rounded-full z-10">
+    <svg class="h-5 w-5" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z" fill="#fff" /></svg>
+    </button>
+    <button id="nextBtn" class="absolute right-4 top-1/2 -translate-y-1/2 bg-black text-white p-3 rounded-full z-10">
+        <svg class="h-5 w-5" viewBox="0 0 1024 1024" class="icon"  version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M256 120.768L306.432 64 768 512l-461.568 448L256 903.232 659.072 512z" fill="#fff" /></svg>
+    </button>
+
+  <!-- Script JS -->
+  <script type="module">
+    const carousel = document.getElementById("carousel");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    let current = 0;
+
+    function updateArrows() {
+  // Si on est sur le premier slide (current === 0), on masque la flèche "précédent"
+  if (current === 0) {
+    prevBtn.classList.add('hidden')
+  } else {
+    prevBtn.classList.remove('hidden')
+  }
+
+  // De même pour la flèche "suivant" sur le dernier slide
+  if (current === 1) {
+    nextBtn.classList.add('hidden')
+  } else {
+    nextBtn.classList.remove('hidden')
+  }
+}
+    
+
+    function updateSlide() {
+      carousel.style.transform = `translateX(-${current * 100}vw)`;
+      updateArrows();
+    }
+
+    nextBtn.addEventListener("click", () => {
+      if (current < 1) {
+        current++;
+        updateSlide();
+      }
+    });
+
+    prevBtn.addEventListener("click", () => {
+      if (current > 0) {
+        current--;
+        updateSlide();
+      }
+    });
+
+    // Swipe mobile
+    let startX = 0;
+    let endX = 0;
+
+    carousel.addEventListener("touchstart", (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    carousel.addEventListener("touchend", (e) => {
+      endX = e.changedTouches[0].clientX;
+      const delta = endX - startX;
+
+      if (delta < -50 && current < 1) {
+        current++;
+        updateSlide();
+      } else if (delta > 50 && current > 0) {
+        current--;
+        updateSlide();
+      }
+    });
+    updateArrows();
+  </script>
 </section>
 
+
+
+
+
 <!-- Mon parcours professionnel -->
-<section class="timeline-section bg-blanc">
+<section class="timeline-section bg-blanc py-20">
     <div class="container mx-auto px-4">
         <h2 class="text-4xl font-semibold text-center text-pink mb-16" data-aos="fade-up">
             Mon parcours professionnel
@@ -98,7 +205,7 @@ import 'aos/dist/aos.css';
             <!-- Étape 1 (actuelle) -->
             <div class="timeline-item relative flex items-center mb-12" data-aos="fade-up" data-aos-delay="100">
                 <div class="w-1/2 pr-4 lg:pr-8 text-right flex justify-end">
-                    <div class="timeline-content bg-blue-50 p-4 lg:p-6 rounded-lg border-2 border-blue-300 max-w-xs lg:max-w-sm">
+                    <div class="timeline-content bg-gray-100 p-4 lg:p-6 rounded-lg border max-w-xs lg:max-w-sm">
                         <h4 class="text-lg lg:text-xl font-semibold text-pink mb-2">Aujourd'hui</h4>
                         <p class="text-sm lg:text-base text-gray-600">10 ans d'expérience</p>
                         <p class="text-xs lg:text-sm text-gray-500 mt-2">Formation continue en dry needling</p>
@@ -184,51 +291,10 @@ import 'aos/dist/aos.css';
 </section>
 
 <!-- Le cabinet -->    
-        <section class="cabinet-section w-full py-20 bg-white">
-            <div class="container mx-auto px-4 py-20">
-            <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Le cabinet</h2>
-            <div class="flex flex-col md:flex-row justify-center gap-6 mb-12">
-                <div class="flex flex-col font-open text-white bg-pink p-8 rounded-2xl gap-12">
-                    <div class="flex">
-                        <svg class="w-15 h-auto mr-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.7 15C4.03377 15.6353 3 16.5205 3 17.4997C3 19.4329 7.02944 21 12 21C16.9706 21 21 19.4329 21 17.4997C21 16.5205 19.9662 15.6353 18.3 15M12 9H12.01M18 9C18 13.0637 13.5 15 12 18C10.5 15 6 13.0637 6 9C6 5.68629 8.68629 3 12 3C15.3137 3 18 5.68629 18 9ZM13 9C13 9.55228 12.5523 10 12 10C11.4477 10 11 9.55228 11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                            <div class="flex flex-col text-justify">
-                                <h1 class="text-2xl font-bold mb-1">my Fisio</h1>
-                                <p>2 Rue Abbé Besnard</p>
-                                <p>35830 Betton</p>
-                            </div>
-                            
-                    </div>
-                    <div class="flex">
-                        <svg class="w-15 h-auto mr-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 6V15.8C5 16.9201 5 17.4802 5.21799 17.908C5.40973 18.2843 5.71569 18.5903 6.09202 18.782C6.51984 19 7.07989 19 8.2 19H15.8C16.9201 19 17.4802 19 17.908 18.782C18.2843 18.5903 18.5903 18.2843 18.782 17.908C19 17.4802 19 16.9201 19 15.8V6M5 6C5 6 5 3 12 3C19 3 19 6 19 6M5 6H19M5 13H19M17 21V19M7 21V19M8 16H8.01M16 16H16.01" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                            <div class="flex flex-col">
-                                <h1 class="text-2xl">Bus</h1>
-                                <p>Arrêt Trégor (lignes 51, 78, 151, 202)</p>
-                                <p>Arrêt Mairie (lignes 51, 78, 151, 202)</p>
-                            </div>
-                            
-                    </div>
-                    <div class="flex">
-                        <svg fill="#fff" class="w-15 h-auto mr-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5,22H19a3,3,0,0,0,3-3V5a3,3,0,0,0-3-3H5A3,3,0,0,0,2,5V19A3,3,0,0,0,5,22ZM4,5A1,1,0,0,1,5,4H19a1,1,0,0,1,1,1V19a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1ZM9,18a1,1,0,0,0,1-1V14h2a4,4,0,0,0,0-8H9A1,1,0,0,0,8,7V17A1,1,0,0,0,9,18ZM10,8h2a2,2,0,0,1,0,4H10Z"/></svg>
-                            <div class="flex flex-col">
-                                <h1 class="text-2xl">Parking public</h1>
-                                <p>22 avenue d’Armorique</p>
-                                <p>35830 Betton</p>
-                            </div>
-                            
-                    </div>
-                </div>
-                <img data-aos="fade-up" data-aos-delay="200" class="w-100 h-auto" src="/maps.png"/>
-            </div>
-        
-            <section class="w-full py-20 bg-white">
+<section class="cabinet-section w-full py-20 bg-white">
     <div class="container mx-auto px-4">
-        <h2 class="text-4xl text-center mb-16 text-pink font-bold">Découvrez Notre Cabinet</h2>
-        
-        <div class="coverflow-container relative max-w-6xl mx-auto h-96 overflow-hidden">
+        <h2 data-aos="fade-up" data-aos-delay="500" class="text-4xl text-center mb-16 text-pink font-bold">Découvrez Notre Cabinet</h2>
+        <div data-aos="fade-up" data-aos-delay="500" class="coverflow-container relative max-w-6xl mx-auto h-96 overflow-hidden">
             <!-- Slides Container -->
             <div class="coverflow-wrapper relative w-full h-full flex items-center justify-center perspective-1000">
                 
@@ -301,7 +367,92 @@ import 'aos/dist/aos.css';
         </div>
     </div>
 </section>
+
+<section class="cabinet-section w-full py-20 bg-blanc">
+    <div class="container mx-auto px-4">
+        <h2 class="section-title text-4xl text-center mb-12 text-pink font-bold" data-aos="fade-up">Comment s'y rendre ?</h2>
+        <div class="flex flex-col md:flex-row justify-center gap-12 mb-12">
+            <div class="flex flex-col font-open text-pink bg-white p-8 rounded-2xl gap-12 border">
+                <div class="flex">
+                    <svg class="w-15 h-auto mr-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.7 15C4.03377 15.6353 3 16.5205 3 17.4997C3 19.4329 7.02944 21 12 21C16.9706 21 21 19.4329 21 17.4997C21 16.5205 19.9662 15.6353 18.3 15M12 9H12.01M18 9C18 13.0637 13.5 15 12 18C10.5 15 6 13.0637 6 9C6 5.68629 8.68629 3 12 3C15.3137 3 18 5.68629 18 9ZM13 9C13 9.55228 12.5523 10 12 10C11.4477 10 11 9.55228 11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9Z" stroke="#C64249" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="flex flex-col text-justify">
+                            <h1 class="text-2xl font-bold mb-1">my Fisio</h1>
+                            <p>2 Rue Abbé Besnard</p>
+                            <p>35830 Betton</p>
+                        </div>
+                </div>
+                <div class="flex">
+                    <svg class="w-15 h-auto mr-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 6V15.8C5 16.9201 5 17.4802 5.21799 17.908C5.40973 18.2843 5.71569 18.5903 6.09202 18.782C6.51984 19 7.07989 19 8.2 19H15.8C16.9201 19 17.4802 19 17.908 18.782C18.2843 18.5903 18.5903 18.2843 18.782 17.908C19 17.4802 19 16.9201 19 15.8V6M5 6C5 6 5 3 12 3C19 3 19 6 19 6M5 6H19M5 13H19M17 21V19M7 21V19M8 16H8.01M16 16H16.01" stroke="#C64249" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                        <div class="flex flex-col">
+                            <h1 class="text-2xl">Bus</h1>
+                            <p>Arrêt Trégor (lignes 51, 78, 151, 202)</p>
+                            <p>Arrêt Mairie (lignes 51, 78, 151, 202)</p>
+                        </div>
+                </div>
+                <div class="flex">
+                        <svg fill="#C64249" class="w-15 h-auto mr-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5,22H19a3,3,0,0,0,3-3V5a3,3,0,0,0-3-3H5A3,3,0,0,0,2,5V19A3,3,0,0,0,5,22ZM4,5A1,1,0,0,1,5,4H19a1,1,0,0,1,1,1V19a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1ZM9,18a1,1,0,0,0,1-1V14h2a4,4,0,0,0,0-8H9A1,1,0,0,0,8,7V17A1,1,0,0,0,9,18ZM10,8h2a2,2,0,0,1,0,4H10Z"/></svg>
+                            <div class="flex flex-col">
+                                <h1 class="text-2xl">Parking public</h1>
+                                <p>22 avenue d’Armorique</p>
+                                <p>35830 Betton</p>
+                            </div>
+                            
+                </div>
+            </div>
+            <img data-aos="fade-up" data-aos-delay="200" class="w-100 h-auto rounded-2xl" src="/maps.png"/>
+        </div>
+    </div>
 </section>
+
+<section class="section-info w-full py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 data-aos="fade-up" data-aos-delay="500" class="text-4xl text-center mb-16 text-pink font-bold">Infos complémentaires</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div class="text-pink font-open bg-white border rounded-2xl p-6 h-60">
+                <h1 class="text-xl font-bold">Durée des séances ?</h1>
+                <p class="word-break mb-6 text-gray-900">Prévoir entre 30 et 45min pour une séance complète et efficace</p>
+                <h1 class="text-xl font-bold">Quelle tenue ?</h1>
+                <p class="word-break text-gray-900">Il est vivement conseillé de venir avec une tenue confortable, comme par exemple une tenue de sport.</p>
+            </div>
+            <div class="text-pink bg-white font-open flex-1 border rounded-2xl p-6 h-60">
+                <h1 class="text-xl font-bold">Tarification et remboursements</h1>
+                <p class="word-break mb-6 text-gray-900">My Fisio est un cabinet conventionné acceptant la Carte Vitale</p>
+                <h1 class="text-xl font-bold">Moyens de paiement</h1>
+                <p class="word-break text-gray-900">Chèque, espèces et carte bancaire</p>
+            </div>  
+        </div>
+    </div>
+</section>
+
+<section class="section-contact w-full py-20 bg-blanc">
+    <div class="container mx-auto px-4">
+        <h2 data-aos="fade-up" data-aos-delay="500" class="text-4xl text-center mb-16 text-pink font-bold">Contact</h2>
+            <div data-aos="fade-up" data-aos-delay="500" class="">
+                <div data-aos="fade-up" data-aos-delay="500" class="flex items-center justify-center">
+                        <svg class="h-12 w-12 mr-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#C64249" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h1 class="text-xl">06 95 09 83 37</h1>
+                    </div>    
+                    <div data-aos="fade-up" data-aos-delay="500" class="flex items-center justify-center">
+                        <svg class="h-12 w-12 mr-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.02832 10L10.2246 14.8166C10.8661 15.2443 11.1869 15.4581 11.5336 15.5412C11.8399 15.6146 12.1593 15.6146 12.4657 15.5412C12.8124 15.4581 13.1332 15.2443 13.7747 14.8166L20.971 10M10.2981 4.06879L4.49814 7.71127C3.95121 8.05474 3.67775 8.22648 3.4794 8.45864C3.30385 8.66412 3.17176 8.90305 3.09111 9.161C3 9.45244 3 9.77535 3 10.4212V16.8C3 17.9201 3 18.4802 3.21799 18.908C3.40973 19.2843 3.71569 19.5903 4.09202 19.782C4.51984 20 5.07989 20 6.2 20H17.8C18.9201 20 19.4802 20 19.908 19.782C20.2843 19.5903 20.5903 19.2843 20.782 18.908C21 18.4802 21 17.9201 21 16.8V10.4212C21 9.77535 21 9.45244 20.9089 9.161C20.8282 8.90305 20.6962 8.66412 20.5206 8.45864C20.3223 8.22648 20.0488 8.05474 19.5019 7.71127L13.7019 4.06879C13.0846 3.68116 12.776 3.48735 12.4449 3.4118C12.152 3.34499 11.848 3.34499 11.5551 3.4118C11.224 3.48735 10.9154 3.68116 10.2981 4.06879Z" stroke="#C64249" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <a href="#">
+                            <h1 class="underline text-xl">myfisiobetton@gmail.com</h1>
+                        </a>
+                        
+                    </div>
+            </div>    
+                    
+            
+    </div>
+</section>
+
 
 <!-- CSS personnalisé à ajouter -->
 <style>
